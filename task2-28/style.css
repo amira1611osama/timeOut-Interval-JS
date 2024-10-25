@@ -1,0 +1,31 @@
+body{
+    height: 4000px;
+}
+/* Start Navbar Home */
+.header-home .navbar {
+    justify-content: space-between;
+    width: 100%;
+    /* z-index: 10000000000; */
+}
+.header-home nav a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 10px;
+}
+.header-home nav a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #fc7051;
+    text-decoration-thickness: 3px;
+    transition: .5s;
+}
+#Search{
+    margin-right: 30px;
+}
+.header-home .navbar input{
+    border: none;
+    padding: 3px;
+    border:#ffc5c3 1px solid;
+    border-radius: 10px;
+}
+/* End Navbar Home  */
